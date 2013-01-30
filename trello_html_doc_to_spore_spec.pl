@@ -14,6 +14,30 @@ my $conf = {
     methods => {}
 };
 
+my $method_rename = {qw(
+    get_actions_idaction getAction
+    get_actions_idaction_field getActionField
+    get_actions_idaction_board getActionBoard
+    get_actions_idaction_board_field getActionBoardField
+    get_actions_idaction_card getActionCard
+    get_actions_idaction_card_field getActionCardField
+    get_actions_idaction_entities getActionEntities
+    get_actions_idaction_list getActionList
+    get_actions_idaction_list_field getActionListField
+    get_actions_idaction_member getActionMember
+    get_actions_idaction_member_field getActionMemberField
+    get_actions_idaction_memebercreator getActionMemberCreator
+    get_actions_idaction_memebercreatorfield getActionMemberCreatorField
+    get_actions_idaction_organization getActionOrganization
+    get_actions_idaction_organization_field getActionOrganizationField
+    put_actions_idaction modifyAction
+    put_actions_idaction_text modifyActionText
+    put_actions_idactiontext modifyActiontext
+    delete_actions_idaction deleteAction
+)};
+
+
+
 my $weight_table = {
     name => 0,
     version => 1,
@@ -134,6 +158,10 @@ foreach my $name (@names) {
         $method_name =~ s|/|_|g;
         $method_name =~ s| |_|g;
         $method_name = lc($method_name);
+
+        if (defined $method_rename->{$method_name}) {
+            $method_name = $method_rename->{$method_name};
+        }
 
         # Update weight table
         $weight_table->{$method_name} = $weight++;

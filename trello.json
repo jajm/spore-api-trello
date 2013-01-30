@@ -6,7 +6,7 @@
       "json"
    ],
    "methods" : {
-      "get_actions_idaction" : {
+      "getAction" : {
          "path" : "/1/actions/:idAction",
          "method" : "GET",
          "required_params" : [
@@ -87,7 +87,7 @@
             }
          }
       },
-      "get_actions_idaction_field" : {
+      "getActionField" : {
          "path" : "/1/actions/:idAction/:field",
          "method" : "GET",
          "required_params" : [
@@ -110,7 +110,7 @@
             }
          }
       },
-      "get_actions_idaction_board" : {
+      "getActionBoard" : {
          "path" : "/1/actions/:idAction/board",
          "method" : "GET",
          "required_params" : [
@@ -143,7 +143,7 @@
             }
          }
       },
-      "get_actions_idaction_board_field" : {
+      "getActionBoardField" : {
          "path" : "/1/actions/:idAction/board/:field",
          "method" : "GET",
          "required_params" : [
@@ -175,7 +175,7 @@
             }
          }
       },
-      "get_actions_idaction_card" : {
+      "getActionCard" : {
          "path" : "/1/actions/:idAction/card",
          "method" : "GET",
          "required_params" : [
@@ -215,7 +215,7 @@
             }
          }
       },
-      "get_actions_idaction_card_field" : {
+      "getActionCardField" : {
          "path" : "/1/actions/:idAction/card/:field",
          "method" : "GET",
          "required_params" : [
@@ -254,7 +254,7 @@
             }
          }
       },
-      "get_actions_idaction_entities" : {
+      "getActionEntities" : {
          "path" : "/1/actions/:idAction/entities",
          "method" : "GET",
          "required_params" : [
@@ -265,7 +265,7 @@
             "token"
          ]
       },
-      "get_actions_idaction_list" : {
+      "getActionList" : {
          "path" : "/1/actions/:idAction/list",
          "method" : "GET",
          "required_params" : [
@@ -290,7 +290,7 @@
             }
          }
       },
-      "get_actions_idaction_list_field" : {
+      "getActionListField" : {
          "path" : "/1/actions/:idAction/list/:field",
          "method" : "GET",
          "required_params" : [
@@ -314,7 +314,7 @@
             }
          }
       },
-      "get_actions_idaction_member" : {
+      "getActionMember" : {
          "path" : "/1/actions/:idAction/member",
          "method" : "GET",
          "required_params" : [
@@ -357,7 +357,7 @@
             }
          }
       },
-      "get_actions_idaction_member_field" : {
+      "getActionMemberField" : {
          "path" : "/1/actions/:idAction/member/:field",
          "method" : "GET",
          "required_params" : [
@@ -484,7 +484,7 @@
             }
          }
       },
-      "get_actions_idaction_organization" : {
+      "getActionOrganization" : {
          "path" : "/1/actions/:idAction/organization",
          "method" : "GET",
          "required_params" : [
@@ -516,7 +516,7 @@
             }
          }
       },
-      "get_actions_idaction_organization_field" : {
+      "getActionOrganizationField" : {
          "path" : "/1/actions/:idAction/organization/:field",
          "method" : "GET",
          "required_params" : [
@@ -547,7 +547,7 @@
             }
          }
       },
-      "put_actions_idaction" : {
+      "modifyAction" : {
          "path" : "/1/actions/:idAction",
          "method" : "PUT",
          "required_params" : [
@@ -559,7 +559,7 @@
             "token"
          ]
       },
-      "put_actions_idaction_text" : {
+      "modifyActionText" : {
          "path" : "/1/actions/:idAction/text",
          "method" : "PUT",
          "required_params" : [
@@ -571,7 +571,7 @@
             "token"
          ]
       },
-      "put_actions_idactiontext" : {
+      "modifyActiontext" : {
          "path" : "/1/actions/:idActiontext",
          "method" : "PUT",
          "required_params" : [
@@ -583,7 +583,7 @@
             "token"
          ]
       },
-      "delete_actions_idaction" : {
+      "deleteAction" : {
          "path" : "/1/actions/:idAction",
          "method" : "DELETE",
          "required_params" : [
