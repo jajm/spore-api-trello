@@ -399,7 +399,7 @@
             }
          }
       },
-      "get_actions_idaction_membercreator" : {
+      "getActionMembercreator" : {
          "path" : "/1/actions/:idAction/memberCreator",
          "method" : "GET",
          "required_params" : [
@@ -442,7 +442,7 @@
             }
          }
       },
-      "get_actions_idaction_membercreator_field" : {
+      "getActionMembercreatorField" : {
          "path" : "/1/actions/:idAction/memberCreator/:field",
          "method" : "GET",
          "required_params" : [
@@ -571,7 +571,7 @@
             "token"
          ]
       },
-      "modifyActiontext" : {
+      "modifyActionsIdactiontext" : {
          "path" : "/1/actions/:idActiontext",
          "method" : "PUT",
          "required_params" : [
@@ -594,7 +594,7 @@
             "token"
          ]
       },
-      "get_boards_board_id" : {
+      "getBoard" : {
          "path" : "/1/boards/:board_id",
          "method" : "GET",
          "required_params" : [
@@ -906,7 +906,7 @@
             }
          }
       },
-      "get_boards_board_id_field" : {
+      "getBoardField" : {
          "path" : "/1/boards/:board_id/:field",
          "method" : "GET",
          "required_params" : [
@@ -938,7 +938,7 @@
             }
          }
       },
-      "get_boards_board_id_actions" : {
+      "getBoardActions" : {
          "path" : "/1/boards/:board_id/actions",
          "method" : "GET",
          "required_params" : [
@@ -1042,7 +1042,7 @@
             }
          }
       },
-      "get_boards_board_id_cards" : {
+      "getBoardCards" : {
          "path" : "/1/boards/:board_id/cards",
          "method" : "GET",
          "required_params" : [
@@ -1213,7 +1213,7 @@
             }
          }
       },
-      "get_boards_board_id_cards_filter" : {
+      "getBoardCardsFilter" : {
          "path" : "/1/boards/:board_id/cards/:filter",
          "method" : "GET",
          "required_params" : [
@@ -1237,7 +1237,7 @@
             }
          }
       },
-      "get_boards_board_id_cards_idcard" : {
+      "getBoardCardsIdcard" : {
          "path" : "/1/boards/:board_id/cards/:idCard",
          "method" : "GET",
          "required_params" : [
@@ -1445,7 +1445,7 @@
             }
          }
       },
-      "get_boards_board_id_checklists" : {
+      "getBoardChecklists" : {
          "path" : "/1/boards/:board_id/checklists",
          "method" : "GET",
          "required_params" : [
@@ -1535,7 +1535,7 @@
             }
          }
       },
-      "get_boards_board_id_lists" : {
+      "getBoardLists" : {
          "path" : "/1/boards/:board_id/lists",
          "method" : "GET",
          "required_params" : [
@@ -1610,7 +1610,7 @@
             }
          }
       },
-      "get_boards_board_id_lists_filter" : {
+      "getBoardListsFilter" : {
          "path" : "/1/boards/:board_id/lists/:filter",
          "method" : "GET",
          "required_params" : [
@@ -1633,7 +1633,7 @@
             }
          }
       },
-      "get_boards_board_id_members" : {
+      "getBoardMembers" : {
          "path" : "/1/boards/:board_id/members",
          "method" : "GET",
          "required_params" : [
@@ -1677,7 +1677,7 @@
             }
          }
       },
-      "get_boards_board_id_members_filter" : {
+      "getBoardMembersFilter" : {
          "path" : "/1/boards/:board_id/members/:filter",
          "method" : "GET",
          "required_params" : [
@@ -1701,7 +1701,7 @@
             }
          }
       },
-      "get_boards_board_id_members_idmember_cards" : {
+      "getBoardMembersIdmemberCards" : {
          "path" : "/1/boards/:board_id/members/:idMember/cards",
          "method" : "GET",
          "required_params" : [
@@ -1920,7 +1920,7 @@
             }
          }
       },
-      "get_boards_board_id_membersinvited" : {
+      "getBoardMembersinvited" : {
          "path" : "/1/boards/:board_id/membersInvited",
          "method" : "GET",
          "required_params" : [
@@ -1963,7 +1963,7 @@
             }
          }
       },
-      "get_boards_board_id_membersinvited_field" : {
+      "getBoardMembersinvitedField" : {
          "path" : "/1/boards/:board_id/membersInvited/:field",
          "method" : "GET",
          "required_params" : [
@@ -2005,7 +2005,7 @@
             }
          }
       },
-      "get_boards_board_id_myprefs" : {
+      "getBoardMyprefs" : {
          "path" : "/1/boards/:board_id/myPrefs",
          "method" : "GET",
          "required_params" : [
@@ -2016,7 +2016,7 @@
             "token"
          ]
       },
-      "get_boards_board_id_organization" : {
+      "getBoardOrganization" : {
          "path" : "/1/boards/:board_id/organization",
          "method" : "GET",
          "required_params" : [
@@ -2048,7 +2048,7 @@
             }
          }
       },
-      "get_boards_board_id_organization_field" : {
+      "getBoardOrganizationField" : {
          "path" : "/1/boards/:board_id/organization/:field",
          "method" : "GET",
          "required_params" : [
@@ -2079,7 +2079,7 @@
             }
          }
       },
-      "put_boards_board_id" : {
+      "modifyBoard" : {
          "path" : "/1/boards/:board_id",
          "method" : "PUT",
          "required_params" : [
@@ -2170,7 +2170,7 @@
             }
          }
       },
-      "put_boards_board_id_closed" : {
+      "modifyBoardClosed" : {
          "path" : "/1/boards/:board_id/closed",
          "method" : "PUT",
          "required_params" : [
@@ -2191,7 +2191,7 @@
             }
          }
       },
-      "put_boards_board_id_desc" : {
+      "modifyBoardDesc" : {
          "path" : "/1/boards/:board_id/desc",
          "method" : "PUT",
          "required_params" : [
@@ -2203,7 +2203,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_idorganization" : {
+      "modifyBoardIdorganization" : {
          "path" : "/1/boards/:board_id/idOrganization",
          "method" : "PUT",
          "required_params" : [
@@ -2215,7 +2215,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_labelnames_blue" : {
+      "modifyBoardLabelnamesBlue" : {
          "path" : "/1/boards/:board_id/labelNames/blue",
          "method" : "PUT",
          "required_params" : [
@@ -2227,7 +2227,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_labelnames_green" : {
+      "modifyBoardLabelnamesGreen" : {
          "path" : "/1/boards/:board_id/labelNames/green",
          "method" : "PUT",
          "required_params" : [
@@ -2239,7 +2239,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_labelnames_orange" : {
+      "modifyBoardLabelnamesOrange" : {
          "path" : "/1/boards/:board_id/labelNames/orange",
          "method" : "PUT",
          "required_params" : [
@@ -2251,7 +2251,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_labelnames_purple" : {
+      "modifyBoardLabelnamesPurple" : {
          "path" : "/1/boards/:board_id/labelNames/purple",
          "method" : "PUT",
          "required_params" : [
@@ -2263,7 +2263,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_labelnames_red" : {
+      "modifyBoardLabelnamesRed" : {
          "path" : "/1/boards/:board_id/labelNames/red",
          "method" : "PUT",
          "required_params" : [
@@ -2275,7 +2275,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_labelnames_yellow" : {
+      "modifyBoardLabelnamesYellow" : {
          "path" : "/1/boards/:board_id/labelNames/yellow",
          "method" : "PUT",
          "required_params" : [
@@ -2287,7 +2287,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_members" : {
+      "modifyBoardMembers" : {
          "path" : "/1/boards/:board_id/members",
          "method" : "PUT",
          "required_params" : [
@@ -2312,7 +2312,7 @@
             }
          }
       },
-      "put_boards_board_id_members_idmember" : {
+      "modifyBoardMembersIdmember" : {
          "path" : "/1/boards/:board_id/members/:idMember",
          "method" : "PUT",
          "required_params" : [
@@ -2335,7 +2335,7 @@
             }
          }
       },
-      "put_boards_board_id_name" : {
+      "modifyBoardName" : {
          "path" : "/1/boards/:board_id/name",
          "method" : "PUT",
          "required_params" : [
@@ -2347,7 +2347,7 @@
             "token"
          ]
       },
-      "put_boards_board_id_prefs_cardcovers" : {
+      "modifyBoardPrefsCardcovers" : {
          "path" : "/1/boards/:board_id/prefs/cardCovers",
          "method" : "PUT",
          "required_params" : [
@@ -2368,7 +2368,7 @@
             }
          }
       },
-      "put_boards_board_id_prefs_comments" : {
+      "modifyBoardPrefsComments" : {
          "path" : "/1/boards/:board_id/prefs/comments",
          "method" : "PUT",
          "required_params" : [
@@ -2391,7 +2391,7 @@
             }
          }
       },
-      "put_boards_board_id_prefs_invitations" : {
+      "modifyBoardPrefsInvitations" : {
          "path" : "/1/boards/:board_id/prefs/invitations",
          "method" : "PUT",
          "required_params" : [
@@ -2412,7 +2412,7 @@
             }
          }
       },
-      "put_boards_board_id_prefs_permissionlevel" : {
+      "modifyBoardPrefsPermissionlevel" : {
          "path" : "/1/boards/:board_id/prefs/permissionLevel",
          "method" : "PUT",
          "required_params" : [
@@ -2434,7 +2434,7 @@
             }
          }
       },
-      "put_boards_board_id_prefs_selfjoin" : {
+      "modifyBoardPrefsSelfjoin" : {
          "path" : "/1/boards/:board_id/prefs/selfJoin",
          "method" : "PUT",
          "required_params" : [
@@ -2455,7 +2455,7 @@
             }
          }
       },
-      "put_boards_board_id_prefs_voting" : {
+      "modifyBoardPrefsVoting" : {
          "path" : "/1/boards/:board_id/prefs/voting",
          "method" : "PUT",
          "required_params" : [
@@ -2478,7 +2478,7 @@
             }
          }
       },
-      "put_boards_board_id_subscribed" : {
+      "modifyBoardSubscribed" : {
          "path" : "/1/boards/:board_id/subscribed",
          "method" : "PUT",
          "required_params" : [
@@ -2499,7 +2499,7 @@
             }
          }
       },
-      "post_boards" : {
+      "newBoards" : {
          "path" : "/1/boards",
          "method" : "POST",
          "required_params" : [
@@ -2580,7 +2580,7 @@
             }
          }
       },
-      "post_boards_board_id_checklists" : {
+      "newBoardChecklists" : {
          "path" : "/1/boards/:board_id/checklists",
          "method" : "POST",
          "required_params" : [
@@ -2592,7 +2592,7 @@
             "token"
          ]
       },
-      "post_boards_board_id_invitations_response" : {
+      "newBoardInvitationsResponse" : {
          "path" : "/1/boards/:board_id/invitations/:response",
          "method" : "POST",
          "required_params" : [
@@ -2614,7 +2614,7 @@
             }
          }
       },
-      "post_boards_board_id_lists" : {
+      "newBoardLists" : {
          "path" : "/1/boards/:board_id/lists",
          "method" : "POST",
          "required_params" : [
@@ -2632,7 +2632,7 @@
             }
          }
       },
-      "post_boards_board_id_markasviewed" : {
+      "newBoardMarkasviewed" : {
          "path" : "/1/boards/:board_id/markAsViewed",
          "method" : "POST",
          "required_params" : [
@@ -2643,7 +2643,7 @@
             "token"
          ]
       },
-      "post_boards_board_id_myprefs" : {
+      "newBoardMyprefs" : {
          "path" : "/1/boards/:board_id/myPrefs",
          "method" : "POST",
          "required_params" : [
@@ -2675,7 +2675,7 @@
             }
          }
       },
-      "delete_boards_board_id_invitations_idinvitation" : {
+      "deleteBoardInvitationsIdinvitation" : {
          "path" : "/1/boards/:board_id/invitations/:idInvitation",
          "method" : "DELETE",
          "required_params" : [
@@ -2687,7 +2687,7 @@
             "token"
          ]
       },
-      "delete_boards_board_id_members_idmember" : {
+      "deleteBoardMembersIdmember" : {
          "path" : "/1/boards/:board_id/members/:idMember",
          "method" : "DELETE",
          "required_params" : [
@@ -2699,7 +2699,7 @@
             "token"
          ]
       },
-      "get_cards_card_id_or_shortlink" : {
+      "getCard" : {
          "path" : "/1/cards/:card_id_or_shortlink",
          "method" : "GET",
          "required_params" : [
@@ -2971,7 +2971,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_field" : {
+      "getCardField" : {
          "path" : "/1/cards/:card_id_or_shortlink/:field",
          "method" : "GET",
          "required_params" : [
@@ -3010,7 +3010,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_actions" : {
+      "getCardActions" : {
          "path" : "/1/cards/:card_id_or_shortlink/actions",
          "method" : "GET",
          "required_params" : [
@@ -3114,7 +3114,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_attachments" : {
+      "getCardAttachments" : {
          "path" : "/1/cards/:card_id_or_shortlink/attachments",
          "method" : "GET",
          "required_params" : [
@@ -3142,7 +3142,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_board" : {
+      "getCardBoard" : {
          "path" : "/1/cards/:card_id_or_shortlink/board",
          "method" : "GET",
          "required_params" : [
@@ -3175,7 +3175,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_board_field" : {
+      "getCardBoardField" : {
          "path" : "/1/cards/:card_id_or_shortlink/board/:field",
          "method" : "GET",
          "required_params" : [
@@ -3207,7 +3207,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_checkitemstates" : {
+      "getCardCheckitemstates" : {
          "path" : "/1/cards/:card_id_or_shortlink/checkItemStates",
          "method" : "GET",
          "required_params" : [
@@ -3229,7 +3229,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_checklists" : {
+      "getCardChecklists" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklists",
          "method" : "GET",
          "required_params" : [
@@ -3319,7 +3319,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_list" : {
+      "getCardList" : {
          "path" : "/1/cards/:card_id_or_shortlink/list",
          "method" : "GET",
          "required_params" : [
@@ -3344,7 +3344,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_list_field" : {
+      "getCardListField" : {
          "path" : "/1/cards/:card_id_or_shortlink/list/:field",
          "method" : "GET",
          "required_params" : [
@@ -3368,7 +3368,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_members" : {
+      "getCardMembers" : {
          "path" : "/1/cards/:card_id_or_shortlink/members",
          "method" : "GET",
          "required_params" : [
@@ -3396,7 +3396,7 @@
             }
          }
       },
-      "get_cards_card_id_or_shortlink_membersvoted" : {
+      "getCardMembersvoted" : {
          "path" : "/1/cards/:card_id_or_shortlink/membersVoted",
          "method" : "GET",
          "required_params" : [
@@ -3424,7 +3424,7 @@
             }
          }
       },
-      "put_cards_card_id_or_shortlink" : {
+      "modifyCard" : {
          "path" : "/1/cards/:card_id_or_shortlink",
          "method" : "PUT",
          "required_params" : [
@@ -3476,7 +3476,7 @@
             }
          }
       },
-      "put_cards_card_id_or_shortlink_actions_idaction_comments" : {
+      "modifyCardActionComments" : {
          "path" : "/1/cards/:card_id_or_shortlink/actions/:idAction/comments",
          "method" : "PUT",
          "required_params" : [
@@ -3489,7 +3489,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_checklist_idchecklist_checkitem_idcheckitem" : {
+      "modifyCardChecklistIdchecklistCheckitemIdcheckitem" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklist/:idChecklist/checkItem/:idCheckItem",
          "method" : "PUT",
          "required_params" : [
@@ -3516,7 +3516,7 @@
             }
          }
       },
-      "put_cards_card_id_or_shortlink_checklist_idchecklist_checkitem_idcheckitem_name" : {
+      "modifyCardChecklistIdchecklistCheckitemIdcheckitemName" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklist/:idChecklist/checkItem/:idCheckItem/name",
          "method" : "PUT",
          "required_params" : [
@@ -3530,7 +3530,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_checklist_idchecklist_checkitem_idcheckitem_pos" : {
+      "modifyCardChecklistIdchecklistCheckitemIdcheckitemPos" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklist/:idChecklist/checkItem/:idCheckItem/pos",
          "method" : "PUT",
          "required_params" : [
@@ -3544,7 +3544,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_checklist_idchecklist_checkitem_idcheckitem_state" : {
+      "modifyCardChecklistIdchecklistCheckitemIdcheckitemState" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklist/:idChecklist/checkItem/:idCheckItem/state",
          "method" : "PUT",
          "required_params" : [
@@ -3569,7 +3569,7 @@
             }
          }
       },
-      "put_cards_card_id_or_shortlink_closed" : {
+      "modifyCardClosed" : {
          "path" : "/1/cards/:card_id_or_shortlink/closed",
          "method" : "PUT",
          "required_params" : [
@@ -3590,7 +3590,7 @@
             }
          }
       },
-      "put_cards_card_id_or_shortlink_desc" : {
+      "modifyCardDesc" : {
          "path" : "/1/cards/:card_id_or_shortlink/desc",
          "method" : "PUT",
          "required_params" : [
@@ -3602,7 +3602,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_due" : {
+      "modifyCardDue" : {
          "path" : "/1/cards/:card_id_or_shortlink/due",
          "method" : "PUT",
          "required_params" : [
@@ -3614,7 +3614,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_idattachmentcover" : {
+      "modifyCardIdattachmentcover" : {
          "path" : "/1/cards/:card_id_or_shortlink/idAttachmentCover",
          "method" : "PUT",
          "required_params" : [
@@ -3626,7 +3626,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_idboard" : {
+      "modifyCardIdboard" : {
          "path" : "/1/cards/:card_id_or_shortlink/idBoard",
          "method" : "PUT",
          "required_params" : [
@@ -3639,7 +3639,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_idlist" : {
+      "modifyCardIdlist" : {
          "path" : "/1/cards/:card_id_or_shortlink/idList",
          "method" : "PUT",
          "required_params" : [
@@ -3651,7 +3651,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_name" : {
+      "modifyCardName" : {
          "path" : "/1/cards/:card_id_or_shortlink/name",
          "method" : "PUT",
          "required_params" : [
@@ -3663,7 +3663,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_pos" : {
+      "modifyCardPos" : {
          "path" : "/1/cards/:card_id_or_shortlink/pos",
          "method" : "PUT",
          "required_params" : [
@@ -3675,7 +3675,7 @@
             "token"
          ]
       },
-      "put_cards_card_id_or_shortlink_subscribed" : {
+      "modifyCardSubscribed" : {
          "path" : "/1/cards/:card_id_or_shortlink/subscribed",
          "method" : "PUT",
          "required_params" : [
@@ -3696,7 +3696,7 @@
             }
          }
       },
-      "put_cards_card_id_or_shortlink_warnwhenupcoming" : {
+      "modifyCardWarnwhenupcoming" : {
          "path" : "/1/cards/:card_id_or_shortlink/warnWhenUpcoming",
          "method" : "PUT",
          "required_params" : [
@@ -3717,7 +3717,7 @@
             }
          }
       },
-      "post_cards" : {
+      "newCards" : {
          "path" : "/1/cards",
          "method" : "POST",
          "required_params" : [
@@ -3741,7 +3741,7 @@
             }
          }
       },
-      "post_cards_card_id_or_shortlink_actions_comments" : {
+      "newCardActionsComments" : {
          "path" : "/1/cards/:card_id_or_shortlink/actions/comments",
          "method" : "POST",
          "required_params" : [
@@ -3753,7 +3753,7 @@
             "token"
          ]
       },
-      "post_cards_card_id_or_shortlink_attachments" : {
+      "newCardAttachments" : {
          "path" : "/1/cards/:card_id_or_shortlink/attachments",
          "method" : "POST",
          "required_params" : [
@@ -3768,7 +3768,7 @@
             "token"
          ]
       },
-      "post_cards_card_id_or_shortlink_checklist_idchecklist_checkitem" : {
+      "newCardChecklistIdchecklistCheckitem" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklist/:idChecklist/checkItem",
          "method" : "POST",
          "required_params" : [
@@ -3787,7 +3787,7 @@
             }
          }
       },
-      "post_cards_card_id_or_shortlink_checklist_idchecklist_checkitem_idcheckitem_converttocard" : {
+      "newCardChecklistIdchecklistCheckitemIdcheckitemConverttocard" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklist/:idChecklist/checkItem/:idCheckItem/convertToCard",
          "method" : "POST",
          "required_params" : [
@@ -3800,7 +3800,7 @@
             "token"
          ]
       },
-      "post_cards_card_id_or_shortlink_checklists" : {
+      "newCardChecklists" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklists",
          "method" : "POST",
          "required_params" : [
@@ -3814,7 +3814,7 @@
             "token"
          ]
       },
-      "post_cards_card_id_or_shortlink_labels" : {
+      "newCardLabels" : {
          "path" : "/1/cards/:card_id_or_shortlink/labels",
          "method" : "POST",
          "required_params" : [
@@ -3839,7 +3839,7 @@
             }
          }
       },
-      "post_cards_card_id_or_shortlink_markassociatednotificationsread" : {
+      "newCardMarkassociatednotificationsread" : {
          "path" : "/1/cards/:card_id_or_shortlink/markAssociatedNotificationsRead",
          "method" : "POST",
          "required_params" : [
@@ -3850,7 +3850,7 @@
             "token"
          ]
       },
-      "post_cards_card_id_or_shortlink_members" : {
+      "newCardMembers" : {
          "path" : "/1/cards/:card_id_or_shortlink/members",
          "method" : "POST",
          "required_params" : [
@@ -3862,7 +3862,7 @@
             "token"
          ]
       },
-      "post_cards_card_id_or_shortlink_membersvoted" : {
+      "newCardMembersvoted" : {
          "path" : "/1/cards/:card_id_or_shortlink/membersVoted",
          "method" : "POST",
          "required_params" : [
@@ -3874,7 +3874,7 @@
             "token"
          ]
       },
-      "delete_cards_card_id_or_shortlink" : {
+      "deleteCard" : {
          "path" : "/1/cards/:card_id_or_shortlink",
          "method" : "DELETE",
          "required_params" : [
@@ -3885,7 +3885,7 @@
             "token"
          ]
       },
-      "delete_cards_card_id_or_shortlink_actions_idaction_comments" : {
+      "deleteCardActionComments" : {
          "path" : "/1/cards/:card_id_or_shortlink/actions/:idAction/comments",
          "method" : "DELETE",
          "required_params" : [
@@ -3897,7 +3897,7 @@
             "token"
          ]
       },
-      "delete_cards_card_id_or_shortlink_attachments_idattachment" : {
+      "deleteCardAttachmentsIdattachment" : {
          "path" : "/1/cards/:card_id_or_shortlink/attachments/:idAttachment",
          "method" : "DELETE",
          "required_params" : [
@@ -3909,7 +3909,7 @@
             "token"
          ]
       },
-      "delete_cards_card_id_or_shortlink_checklist_idchecklist_checkitem_idcheckitem" : {
+      "deleteCardChecklistIdchecklistCheckitemIdcheckitem" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklist/:idChecklist/checkItem/:idCheckItem",
          "method" : "DELETE",
          "required_params" : [
@@ -3922,7 +3922,7 @@
             "token"
          ]
       },
-      "delete_cards_card_id_or_shortlink_checklists_idchecklist" : {
+      "deleteCardChecklist" : {
          "path" : "/1/cards/:card_id_or_shortlink/checklists/:idChecklist",
          "method" : "DELETE",
          "required_params" : [
@@ -3934,7 +3934,7 @@
             "token"
          ]
       },
-      "delete_cards_card_id_or_shortlink_labels_color" : {
+      "deleteCardLabelsColor" : {
          "path" : "/1/cards/:card_id_or_shortlink/labels/:color",
          "method" : "DELETE",
          "required_params" : [
@@ -3959,7 +3959,7 @@
             }
          }
       },
-      "delete_cards_card_id_or_shortlink_members_idmember" : {
+      "deleteCardMembersIdmember" : {
          "path" : "/1/cards/:card_id_or_shortlink/members/:idMember",
          "method" : "DELETE",
          "required_params" : [
@@ -3971,7 +3971,7 @@
             "token"
          ]
       },
-      "delete_cards_card_id_or_shortlink_membersvoted_idmember" : {
+      "deleteCardMembersvotedIdmember" : {
          "path" : "/1/cards/:card_id_or_shortlink/membersVoted/:idMember",
          "method" : "DELETE",
          "required_params" : [
@@ -3983,7 +3983,7 @@
             "token"
          ]
       },
-      "get_checklists_idchecklist" : {
+      "getChecklist" : {
          "path" : "/1/checklists/:idChecklist",
          "method" : "GET",
          "required_params" : [
@@ -4064,7 +4064,7 @@
             }
          }
       },
-      "get_checklists_idchecklist_field" : {
+      "getChecklistField" : {
          "path" : "/1/checklists/:idChecklist/:field",
          "method" : "GET",
          "required_params" : [
@@ -4085,7 +4085,7 @@
             }
          }
       },
-      "get_checklists_idchecklist_board" : {
+      "getChecklistBoard" : {
          "path" : "/1/checklists/:idChecklist/board",
          "method" : "GET",
          "required_params" : [
@@ -4118,7 +4118,7 @@
             }
          }
       },
-      "get_checklists_idchecklist_board_field" : {
+      "getChecklistBoardField" : {
          "path" : "/1/checklists/:idChecklist/board/:field",
          "method" : "GET",
          "required_params" : [
@@ -4150,7 +4150,7 @@
             }
          }
       },
-      "get_checklists_idchecklist_cards" : {
+      "getChecklistCards" : {
          "path" : "/1/checklists/:idChecklist/cards",
          "method" : "GET",
          "required_params" : [
@@ -4320,7 +4320,7 @@
             }
          }
       },
-      "get_checklists_idchecklist_cards_filter" : {
+      "getChecklistCardsFilter" : {
          "path" : "/1/checklists/:idChecklist/cards/:filter",
          "method" : "GET",
          "required_params" : [
@@ -4343,7 +4343,7 @@
             }
          }
       },
-      "get_checklists_idchecklist_checkitems" : {
+      "getChecklistCheckitems" : {
          "path" : "/1/checklists/:idChecklist/checkItems",
          "method" : "GET",
          "required_params" : [
@@ -4376,7 +4376,7 @@
             }
          }
       },
-      "put_checklists_idchecklist" : {
+      "modifyChecklist" : {
          "path" : "/1/checklists/:idChecklist",
          "method" : "PUT",
          "required_params" : [
@@ -4388,7 +4388,7 @@
             "token"
          ]
       },
-      "put_checklists_idchecklist_name" : {
+      "modifyChecklistName" : {
          "path" : "/1/checklists/:idChecklist/name",
          "method" : "PUT",
          "required_params" : [
@@ -4400,7 +4400,7 @@
             "token"
          ]
       },
-      "post_checklists" : {
+      "newChecklists" : {
          "path" : "/1/checklists",
          "method" : "POST",
          "required_params" : [
@@ -4414,7 +4414,7 @@
             "token"
          ]
       },
-      "post_checklists_idchecklist_checkitems" : {
+      "newChecklistCheckitems" : {
          "path" : "/1/checklists/:idChecklist/checkItems",
          "method" : "POST",
          "required_params" : [
@@ -4432,7 +4432,7 @@
             }
          }
       },
-      "delete_checklists_idchecklist" : {
+      "deleteChecklist" : {
          "path" : "/1/checklists/:idChecklist",
          "method" : "DELETE",
          "required_params" : [
@@ -4443,7 +4443,7 @@
             "token"
          ]
       },
-      "delete_checklists_idchecklist_checkitems_idcheckitem" : {
+      "deleteChecklistCheckitemsIdcheckitem" : {
          "path" : "/1/checklists/:idChecklist/checkItems/:idCheckItem",
          "method" : "DELETE",
          "required_params" : [
@@ -4455,7 +4455,7 @@
             "token"
          ]
       },
-      "get_lists_idlist" : {
+      "getListsIdlist" : {
          "path" : "/1/lists/:idList",
          "method" : "GET",
          "required_params" : [
@@ -4519,7 +4519,7 @@
             }
          }
       },
-      "get_lists_idlist_field" : {
+      "getListsIdlistField" : {
          "path" : "/1/lists/:idList/:field",
          "method" : "GET",
          "required_params" : [
@@ -4543,7 +4543,7 @@
             }
          }
       },
-      "get_lists_idlist_actions" : {
+      "getListsIdlistActions" : {
          "path" : "/1/lists/:idList/actions",
          "method" : "GET",
          "required_params" : [
@@ -4647,7 +4647,7 @@
             }
          }
       },
-      "get_lists_idlist_board" : {
+      "getListsIdlistBoard" : {
          "path" : "/1/lists/:idList/board",
          "method" : "GET",
          "required_params" : [
@@ -4680,7 +4680,7 @@
             }
          }
       },
-      "get_lists_idlist_board_field" : {
+      "getListsIdlistBoardField" : {
          "path" : "/1/lists/:idList/board/:field",
          "method" : "GET",
          "required_params" : [
@@ -4712,7 +4712,7 @@
             }
          }
       },
-      "get_lists_idlist_cards" : {
+      "getListsIdlistCards" : {
          "path" : "/1/lists/:idList/cards",
          "method" : "GET",
          "required_params" : [
@@ -4882,7 +4882,7 @@
             }
          }
       },
-      "get_lists_idlist_cards_filter" : {
+      "getListsIdlistCardsFilter" : {
          "path" : "/1/lists/:idList/cards/:filter",
          "method" : "GET",
          "required_params" : [
@@ -4905,7 +4905,7 @@
             }
          }
       },
-      "put_lists_idlist" : {
+      "modifyListsIdlist" : {
          "path" : "/1/lists/:idList",
          "method" : "PUT",
          "required_params" : [
@@ -4937,7 +4937,7 @@
             }
          }
       },
-      "put_lists_idlist_closed" : {
+      "modifyListsIdlistClosed" : {
          "path" : "/1/lists/:idList/closed",
          "method" : "PUT",
          "required_params" : [
@@ -4958,7 +4958,7 @@
             }
          }
       },
-      "put_lists_idlist_idboard" : {
+      "modifyListsIdlistIdboard" : {
          "path" : "/1/lists/:idList/idBoard",
          "method" : "PUT",
          "required_params" : [
@@ -4976,7 +4976,7 @@
             }
          }
       },
-      "put_lists_idlist_name" : {
+      "modifyListsIdlistName" : {
          "path" : "/1/lists/:idList/name",
          "method" : "PUT",
          "required_params" : [
@@ -4988,7 +4988,7 @@
             "token"
          ]
       },
-      "put_lists_idlist_pos" : {
+      "modifyListsIdlistPos" : {
          "path" : "/1/lists/:idList/pos",
          "method" : "PUT",
          "required_params" : [
@@ -5000,7 +5000,7 @@
             "token"
          ]
       },
-      "put_lists_idlist_subscribed" : {
+      "modifyListsIdlistSubscribed" : {
          "path" : "/1/lists/:idList/subscribed",
          "method" : "PUT",
          "required_params" : [
@@ -5021,7 +5021,7 @@
             }
          }
       },
-      "post_lists" : {
+      "newLists" : {
          "path" : "/1/lists",
          "method" : "POST",
          "required_params" : [
@@ -5040,7 +5040,7 @@
             }
          }
       },
-      "post_lists_idlist_cards" : {
+      "newListsIdlistCards" : {
          "path" : "/1/lists/:idList/cards",
          "method" : "POST",
          "required_params" : [
@@ -5053,7 +5053,7 @@
             "token"
          ]
       },
-      "get_members_idmember_or_username" : {
+      "getMembersIdmemberOrUsername" : {
          "path" : "/1/members/:idMember_or_username",
          "method" : "GET",
          "required_params" : [
@@ -5609,7 +5609,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_field" : {
+      "getMembersIdmemberOrUsernameField" : {
          "path" : "/1/members/:idMember_or_username/:field",
          "method" : "GET",
          "required_params" : [
@@ -5651,7 +5651,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_actions" : {
+      "getMembersIdmemberOrUsernameActions" : {
          "path" : "/1/members/:idMember_or_username/actions",
          "method" : "GET",
          "required_params" : [
@@ -5755,7 +5755,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_boards" : {
+      "getMembersIdmemberOrUsernameBoards" : {
          "path" : "/1/members/:idMember_or_username/boards",
          "method" : "GET",
          "required_params" : [
@@ -5927,7 +5927,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_boards_filter" : {
+      "getMembersIdmemberOrUsernameBoardsFilter" : {
          "path" : "/1/members/:idMember_or_username/boards/:filter",
          "method" : "GET",
          "required_params" : [
@@ -5955,7 +5955,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_boardsinvited" : {
+      "getMembersIdmemberOrUsernameBoardsinvited" : {
          "path" : "/1/members/:idMember_or_username/boardsInvited",
          "method" : "GET",
          "required_params" : [
@@ -5988,7 +5988,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_boardsinvited_field" : {
+      "getMembersIdmemberOrUsernameBoardsinvitedField" : {
          "path" : "/1/members/:idMember_or_username/boardsInvited/:field",
          "method" : "GET",
          "required_params" : [
@@ -6020,7 +6020,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_cards" : {
+      "getMembersIdmemberOrUsernameCards" : {
          "path" : "/1/members/:idMember_or_username/cards",
          "method" : "GET",
          "required_params" : [
@@ -6191,7 +6191,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_cards_filter" : {
+      "getMembersIdmemberOrUsernameCardsFilter" : {
          "path" : "/1/members/:idMember_or_username/cards/:filter",
          "method" : "GET",
          "required_params" : [
@@ -6215,7 +6215,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_notifications" : {
+      "getMembersIdmemberOrUsernameNotifications" : {
          "path" : "/1/members/:idMember_or_username/notifications",
          "method" : "GET",
          "required_params" : [
@@ -6324,7 +6324,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_notifications_filter" : {
+      "getMembersIdmemberOrUsernameNotificationsFilter" : {
          "path" : "/1/members/:idMember_or_username/notifications/:filter",
          "method" : "GET",
          "required_params" : [
@@ -6367,7 +6367,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_organizations" : {
+      "getMembersIdmemberOrUsernameOrganizations" : {
          "path" : "/1/members/:idMember_or_username/organizations",
          "method" : "GET",
          "required_params" : [
@@ -6419,7 +6419,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_organizations_filter" : {
+      "getMembersIdmemberOrUsernameOrganizationsFilter" : {
          "path" : "/1/members/:idMember_or_username/organizations/:filter",
          "method" : "GET",
          "required_params" : [
@@ -6442,7 +6442,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_organizationsinvited" : {
+      "getMembersIdmemberOrUsernameOrganizationsinvited" : {
          "path" : "/1/members/:idMember_or_username/organizationsInvited",
          "method" : "GET",
          "required_params" : [
@@ -6474,7 +6474,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_organizationsinvited_field" : {
+      "getMembersIdmemberOrUsernameOrganizationsinvitedField" : {
          "path" : "/1/members/:idMember_or_username/organizationsInvited/:field",
          "method" : "GET",
          "required_params" : [
@@ -6505,7 +6505,7 @@
             }
          }
       },
-      "get_members_idmember_or_username_tokens" : {
+      "getMembersIdmemberOrUsernameTokens" : {
          "path" : "/1/members/:idMember_or_username/tokens",
          "method" : "GET",
          "required_params" : [
@@ -6527,7 +6527,7 @@
             }
          }
       },
-      "put_members_idmember_or_username" : {
+      "modifyMembersIdmemberOrUsername" : {
          "path" : "/1/members/:idMember_or_username",
          "method" : "PUT",
          "required_params" : [
@@ -6552,7 +6552,7 @@
             }
          }
       },
-      "put_members_idmember_or_username_avatarsource" : {
+      "modifyMembersIdmemberOrUsernameAvatarsource" : {
          "path" : "/1/members/:idMember_or_username/avatarSource",
          "method" : "PUT",
          "required_params" : [
@@ -6574,7 +6574,7 @@
             }
          }
       },
-      "put_members_idmember_or_username_bio" : {
+      "modifyMembersIdmemberOrUsernameBio" : {
          "path" : "/1/members/:idMember_or_username/bio",
          "method" : "PUT",
          "required_params" : [
@@ -6586,7 +6586,7 @@
             "token"
          ]
       },
-      "put_members_idmember_or_username_fullname" : {
+      "modifyMembersIdmemberOrUsernameFullname" : {
          "path" : "/1/members/:idMember_or_username/fullName",
          "method" : "PUT",
          "required_params" : [
@@ -6598,7 +6598,7 @@
             "token"
          ]
       },
-      "put_members_idmember_or_username_initials" : {
+      "modifyMembersIdmemberOrUsernameInitials" : {
          "path" : "/1/members/:idMember_or_username/initials",
          "method" : "PUT",
          "required_params" : [
@@ -6610,7 +6610,7 @@
             "token"
          ]
       },
-      "post_members_idmember_or_username_idboardspinned" : {
+      "newMembersIdmemberOrUsernameIdboardspinned" : {
          "path" : "/1/members/:idMember_or_username/idBoardsPinned",
          "method" : "POST",
          "required_params" : [
@@ -6622,7 +6622,7 @@
             "token"
          ]
       },
-      "delete_members_idmember_or_username_idboardspinned_idboard" : {
+      "deleteMembersIdmemberOrUsernameIdboardspinnedIdboard" : {
          "path" : "/1/members/:idMember_or_username/idBoardsPinned/:idBoard",
          "method" : "DELETE",
          "required_params" : [
@@ -6634,7 +6634,7 @@
             "token"
          ]
       },
-      "get_notifications_idnotification" : {
+      "getNotificationsIdnotification" : {
          "path" : "/1/notifications/:idNotification",
          "method" : "GET",
          "required_params" : [
@@ -6818,7 +6818,7 @@
             }
          }
       },
-      "get_notifications_idnotification_field" : {
+      "getNotificationsIdnotificationField" : {
          "path" : "/1/notifications/:idNotification/:field",
          "method" : "GET",
          "required_params" : [
@@ -6842,7 +6842,7 @@
             }
          }
       },
-      "get_notifications_idnotification_board" : {
+      "getNotificationsIdnotificationBoard" : {
          "path" : "/1/notifications/:idNotification/board",
          "method" : "GET",
          "required_params" : [
@@ -6875,7 +6875,7 @@
             }
          }
       },
-      "get_notifications_idnotification_board_field" : {
+      "getNotificationsIdnotificationBoardField" : {
          "path" : "/1/notifications/:idNotification/board/:field",
          "method" : "GET",
          "required_params" : [
@@ -6907,7 +6907,7 @@
             }
          }
       },
-      "get_notifications_idnotification_card" : {
+      "getNotificationsIdnotificationCard" : {
          "path" : "/1/notifications/:idNotification/card",
          "method" : "GET",
          "required_params" : [
@@ -6947,7 +6947,7 @@
             }
          }
       },
-      "get_notifications_idnotification_card_field" : {
+      "getNotificationsIdnotificationCardField" : {
          "path" : "/1/notifications/:idNotification/card/:field",
          "method" : "GET",
          "required_params" : [
@@ -6986,7 +6986,7 @@
             }
          }
       },
-      "get_notifications_idnotification_entities" : {
+      "getNotificationsIdnotificationEntities" : {
          "path" : "/1/notifications/:idNotification/entities",
          "method" : "GET",
          "required_params" : [
@@ -6997,7 +6997,7 @@
             "token"
          ]
       },
-      "get_notifications_idnotification_list" : {
+      "getNotificationsIdnotificationList" : {
          "path" : "/1/notifications/:idNotification/list",
          "method" : "GET",
          "required_params" : [
@@ -7022,7 +7022,7 @@
             }
          }
       },
-      "get_notifications_idnotification_list_field" : {
+      "getNotificationsIdnotificationListField" : {
          "path" : "/1/notifications/:idNotification/list/:field",
          "method" : "GET",
          "required_params" : [
@@ -7046,7 +7046,7 @@
             }
          }
       },
-      "get_notifications_idnotification_member" : {
+      "getNotificationsIdnotificationMember" : {
          "path" : "/1/notifications/:idNotification/member",
          "method" : "GET",
          "required_params" : [
@@ -7089,7 +7089,7 @@
             }
          }
       },
-      "get_notifications_idnotification_member_field" : {
+      "getNotificationsIdnotificationMemberField" : {
          "path" : "/1/notifications/:idNotification/member/:field",
          "method" : "GET",
          "required_params" : [
@@ -7131,7 +7131,7 @@
             }
          }
       },
-      "get_notifications_idnotification_membercreator" : {
+      "getNotificationsIdnotificationMembercreator" : {
          "path" : "/1/notifications/:idNotification/memberCreator",
          "method" : "GET",
          "required_params" : [
@@ -7174,7 +7174,7 @@
             }
          }
       },
-      "get_notifications_idnotification_membercreator_field" : {
+      "getNotificationsIdnotificationMembercreatorField" : {
          "path" : "/1/notifications/:idNotification/memberCreator/:field",
          "method" : "GET",
          "required_params" : [
@@ -7216,7 +7216,7 @@
             }
          }
       },
-      "get_notifications_idnotification_organization" : {
+      "getNotificationsIdnotificationOrganization" : {
          "path" : "/1/notifications/:idNotification/organization",
          "method" : "GET",
          "required_params" : [
@@ -7248,7 +7248,7 @@
             }
          }
       },
-      "get_notifications_idnotification_organization_field" : {
+      "getNotificationsIdnotificationOrganizationField" : {
          "path" : "/1/notifications/:idNotification/organization/:field",
          "method" : "GET",
          "required_params" : [
@@ -7279,7 +7279,7 @@
             }
          }
       },
-      "put_notifications_idnotification" : {
+      "modifyNotificationsIdnotification" : {
          "path" : "/1/notifications/:idNotification",
          "method" : "PUT",
          "required_params" : [
@@ -7300,7 +7300,7 @@
             }
          }
       },
-      "put_notifications_idnotification_unread" : {
+      "modifyNotificationsIdnotificationUnread" : {
          "path" : "/1/notifications/:idNotification/unread",
          "method" : "PUT",
          "required_params" : [
@@ -7321,7 +7321,7 @@
             }
          }
       },
-      "post_notifications_all_read" : {
+      "newNotificationsAllRead" : {
          "path" : "/1/notifications/all/read",
          "method" : "POST",
          "required_params" : [
@@ -7331,7 +7331,7 @@
             "token"
          ]
       },
-      "get_organizations_idorg_or_name" : {
+      "getOrganizationsIdorgOrName" : {
          "path" : "/1/organizations/:idOrg_or_name",
          "method" : "GET",
          "required_params" : [
@@ -7635,7 +7635,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_field" : {
+      "getOrganizationsIdorgOrNameField" : {
          "path" : "/1/organizations/:idOrg_or_name/:field",
          "method" : "GET",
          "required_params" : [
@@ -7666,7 +7666,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_actions" : {
+      "getOrganizationsIdorgOrNameActions" : {
          "path" : "/1/organizations/:idOrg_or_name/actions",
          "method" : "GET",
          "required_params" : [
@@ -7770,7 +7770,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_boards" : {
+      "getOrganizationsIdorgOrNameBoards" : {
          "path" : "/1/organizations/:idOrg_or_name/boards",
          "method" : "GET",
          "required_params" : [
@@ -7942,7 +7942,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_boards_filter" : {
+      "getOrganizationsIdorgOrNameBoardsFilter" : {
          "path" : "/1/organizations/:idOrg_or_name/boards/:filter",
          "method" : "GET",
          "required_params" : [
@@ -7970,7 +7970,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_members" : {
+      "getOrganizationsIdorgOrNameMembers" : {
          "path" : "/1/organizations/:idOrg_or_name/members",
          "method" : "GET",
          "required_params" : [
@@ -8014,7 +8014,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_members_filter" : {
+      "getOrganizationsIdorgOrNameMembersFilter" : {
          "path" : "/1/organizations/:idOrg_or_name/members/:filter",
          "method" : "GET",
          "required_params" : [
@@ -8038,7 +8038,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_members_idmember_cards" : {
+      "getOrganizationsIdorgOrNameMembersIdmemberCards" : {
          "path" : "/1/organizations/:idOrg_or_name/members/:idMember/cards",
          "method" : "GET",
          "required_params" : [
@@ -8257,7 +8257,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_membersinvited" : {
+      "getOrganizationsIdorgOrNameMembersinvited" : {
          "path" : "/1/organizations/:idOrg_or_name/membersInvited",
          "method" : "GET",
          "required_params" : [
@@ -8300,7 +8300,7 @@
             }
          }
       },
-      "get_organizations_idorg_or_name_membersinvited_field" : {
+      "getOrganizationsIdorgOrNameMembersinvitedField" : {
          "path" : "/1/organizations/:idOrg_or_name/membersInvited/:field",
          "method" : "GET",
          "required_params" : [
@@ -8342,7 +8342,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name" : {
+      "modifyOrganizationsIdorgOrName" : {
          "path" : "/1/organizations/:idOrg_or_name",
          "method" : "PUT",
          "required_params" : [
@@ -8403,7 +8403,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_desc" : {
+      "modifyOrganizationsIdorgOrNameDesc" : {
          "path" : "/1/organizations/:idOrg_or_name/desc",
          "method" : "PUT",
          "required_params" : [
@@ -8415,7 +8415,7 @@
             "token"
          ]
       },
-      "put_organizations_idorg_or_name_displayname" : {
+      "modifyOrganizationsIdorgOrNameDisplayname" : {
          "path" : "/1/organizations/:idOrg_or_name/displayName",
          "method" : "PUT",
          "required_params" : [
@@ -8427,7 +8427,7 @@
             "token"
          ]
       },
-      "put_organizations_idorg_or_name_members" : {
+      "modifyOrganizationsIdorgOrNameMembers" : {
          "path" : "/1/organizations/:idOrg_or_name/members",
          "method" : "PUT",
          "required_params" : [
@@ -8452,7 +8452,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_members_idmember" : {
+      "modifyOrganizationsIdorgOrNameMembersIdmember" : {
          "path" : "/1/organizations/:idOrg_or_name/members/:idMember",
          "method" : "PUT",
          "required_params" : [
@@ -8475,7 +8475,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_members_idmember_deactivated" : {
+      "modifyOrganizationsIdorgOrNameMembersIdmemberDeactivated" : {
          "path" : "/1/organizations/:idOrg_or_name/members/:idMember/deactivated",
          "method" : "PUT",
          "required_params" : [
@@ -8497,7 +8497,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_name" : {
+      "modifyOrganizationsIdorgOrNameName" : {
          "path" : "/1/organizations/:idOrg_or_name/name",
          "method" : "PUT",
          "required_params" : [
@@ -8509,7 +8509,7 @@
             "token"
          ]
       },
-      "put_organizations_idorg_or_name_prefs_boardvisibilityrestrict_org" : {
+      "modifyOrganizationsIdorgOrNamePrefsBoardvisibilityrestrictOrg" : {
          "path" : "/1/organizations/:idOrg_or_name/prefs/boardVisibilityRestrict/org",
          "method" : "PUT",
          "required_params" : [
@@ -8531,7 +8531,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_prefs_boardvisibilityrestrict_private" : {
+      "modifyOrganizationsIdorgOrNamePrefsBoardvisibilityrestrictPrivate" : {
          "path" : "/1/organizations/:idOrg_or_name/prefs/boardVisibilityRestrict/private",
          "method" : "PUT",
          "required_params" : [
@@ -8553,7 +8553,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_prefs_boardvisibilityrestrict_public" : {
+      "modifyOrganizationsIdorgOrNamePrefsBoardvisibilityrestrictPublic" : {
          "path" : "/1/organizations/:idOrg_or_name/prefs/boardVisibilityRestrict/public",
          "method" : "PUT",
          "required_params" : [
@@ -8575,7 +8575,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_prefs_externalmembersdisabled" : {
+      "modifyOrganizationsIdorgOrNamePrefsExternalmembersdisabled" : {
          "path" : "/1/organizations/:idOrg_or_name/prefs/externalMembersDisabled",
          "method" : "PUT",
          "required_params" : [
@@ -8596,7 +8596,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_prefs_orginviterestrict" : {
+      "modifyOrganizationsIdorgOrNamePrefsOrginviterestrict" : {
          "path" : "/1/organizations/:idOrg_or_name/prefs/orgInviteRestrict",
          "method" : "PUT",
          "required_params" : [
@@ -8608,7 +8608,7 @@
             "token"
          ]
       },
-      "put_organizations_idorg_or_name_prefs_permissionlevel" : {
+      "modifyOrganizationsIdorgOrNamePrefsPermissionlevel" : {
          "path" : "/1/organizations/:idOrg_or_name/prefs/permissionLevel",
          "method" : "PUT",
          "required_params" : [
@@ -8629,7 +8629,7 @@
             }
          }
       },
-      "put_organizations_idorg_or_name_website" : {
+      "modifyOrganizationsIdorgOrNameWebsite" : {
          "path" : "/1/organizations/:idOrg_or_name/website",
          "method" : "PUT",
          "required_params" : [
@@ -8641,7 +8641,7 @@
             "token"
          ]
       },
-      "post_organizations" : {
+      "newOrganizations" : {
          "path" : "/1/organizations",
          "method" : "POST",
          "required_params" : [
@@ -8655,7 +8655,7 @@
             "token"
          ]
       },
-      "post_organizations_idorg_or_name_invitations_response" : {
+      "newOrganizationsIdorgOrNameInvitationsResponse" : {
          "path" : "/1/organizations/:idOrg_or_name/invitations/:response",
          "method" : "POST",
          "required_params" : [
@@ -8677,7 +8677,7 @@
             }
          }
       },
-      "post_organizations_idorg_or_name_logo" : {
+      "newOrganizationsIdorgOrNameLogo" : {
          "path" : "/1/organizations/:idOrg_or_name/logo",
          "method" : "POST",
          "required_params" : [
@@ -8689,7 +8689,7 @@
             "token"
          ]
       },
-      "delete_organizations_idorg_or_name" : {
+      "deleteOrganizationsIdorgOrName" : {
          "path" : "/1/organizations/:idOrg_or_name",
          "method" : "DELETE",
          "required_params" : [
@@ -8700,7 +8700,7 @@
             "token"
          ]
       },
-      "delete_organizations_idorg_or_name_invitations_idinvitation" : {
+      "deleteOrganizationsIdorgOrNameInvitationsIdinvitation" : {
          "path" : "/1/organizations/:idOrg_or_name/invitations/:idInvitation",
          "method" : "DELETE",
          "required_params" : [
@@ -8712,7 +8712,7 @@
             "token"
          ]
       },
-      "delete_organizations_idorg_or_name_logo" : {
+      "deleteOrganizationsIdorgOrNameLogo" : {
          "path" : "/1/organizations/:idOrg_or_name/logo",
          "method" : "DELETE",
          "required_params" : [
@@ -8723,7 +8723,7 @@
             "token"
          ]
       },
-      "delete_organizations_idorg_or_name_members_idmember" : {
+      "deleteOrganizationsIdorgOrNameMembersIdmember" : {
          "path" : "/1/organizations/:idOrg_or_name/members/:idMember",
          "method" : "DELETE",
          "required_params" : [
@@ -8735,7 +8735,7 @@
             "token"
          ]
       },
-      "delete_organizations_idorg_or_name_members_idmember_all" : {
+      "deleteOrganizationsIdorgOrNameMembersIdmemberAll" : {
          "path" : "/1/organizations/:idOrg_or_name/members/:idMember/all",
          "method" : "DELETE",
          "required_params" : [
@@ -8747,7 +8747,7 @@
             "token"
          ]
       },
-      "delete_organizations_idorg_or_name_prefs_orginviterestrict" : {
+      "deleteOrganizationsIdorgOrNamePrefsOrginviterestrict" : {
          "path" : "/1/organizations/:idOrg_or_name/prefs/orgInviteRestrict",
          "method" : "DELETE",
          "required_params" : [
@@ -8759,7 +8759,7 @@
             "token"
          ]
       },
-      "get_search" : {
+      "getSearch" : {
          "path" : "/1/search",
          "method" : "GET",
          "required_params" : [
@@ -8948,7 +8948,7 @@
             }
          }
       },
-      "get_search_members" : {
+      "getSearchMembers" : {
          "path" : "/1/search/members",
          "method" : "GET",
          "required_params" : [
@@ -8967,7 +8967,7 @@
             }
          }
       },
-      "get_tokens_token" : {
+      "getTokensToken" : {
          "path" : "/1/tokens/:token",
          "method" : "GET",
          "required_params" : [
@@ -8991,7 +8991,7 @@
             }
          }
       },
-      "get_tokens_token_field" : {
+      "getTokensTokenField" : {
          "path" : "/1/tokens/:token/:field",
          "method" : "GET",
          "required_params" : [
@@ -9013,7 +9013,7 @@
             }
          }
       },
-      "get_tokens_token_member" : {
+      "getTokensTokenMember" : {
          "path" : "/1/tokens/:token/member",
          "method" : "GET",
          "required_params" : [
@@ -9055,7 +9055,7 @@
             }
          }
       },
-      "get_tokens_token_member_field" : {
+      "getTokensTokenMemberField" : {
          "path" : "/1/tokens/:token/member/:field",
          "method" : "GET",
          "required_params" : [
@@ -9095,7 +9095,7 @@
             }
          }
       },
-      "delete_tokens_token" : {
+      "deleteTokensToken" : {
          "path" : "/1/tokens/:token",
          "method" : "DELETE",
          "required_params" : [
@@ -9104,7 +9104,7 @@
          ],
          "optional_params" : []
       },
-      "get_types_id" : {
+      "getTypesId" : {
          "path" : "/1/types/:id",
          "method" : "GET",
          "required_params" : [
